@@ -13156,7 +13156,7 @@ exports[`ConfigProvider components Menu configProvider 1`] = `
   role="menu"
 >
   <li
-    class="config-menu-submenu config-menu-submenu-inline config-menu-submenu-open"
+    class="config-menu-submenu config-menu-submenu-inline config-menu-without-icon config-menu-submenu-open"
     role="menuitem"
   >
     <div
@@ -13191,7 +13191,7 @@ exports[`ConfigProvider components Menu configProvider 1`] = `
           class="config-menu-item-group-list"
         >
           <li
-            class="config-menu-item config-menu-item-only-child"
+            class="config-menu-item config-menu-item-only-child config-menu-without-icon"
             role="menuitem"
             style="padding-left:48px"
           >
@@ -13210,7 +13210,7 @@ exports[`ConfigProvider components Menu configProvider componentSize large 1`] =
   role="menu"
 >
   <li
-    class="config-menu-submenu config-menu-submenu-inline config-menu-submenu-open"
+    class="config-menu-submenu config-menu-submenu-inline config-menu-without-icon config-menu-submenu-open"
     role="menuitem"
   >
     <div
@@ -13245,7 +13245,7 @@ exports[`ConfigProvider components Menu configProvider componentSize large 1`] =
           class="config-menu-item-group-list"
         >
           <li
-            class="config-menu-item config-menu-item-only-child"
+            class="config-menu-item config-menu-item-only-child config-menu-without-icon"
             role="menuitem"
             style="padding-left:48px"
           >
@@ -13264,7 +13264,7 @@ exports[`ConfigProvider components Menu configProvider componentSize middle 1`] 
   role="menu"
 >
   <li
-    class="config-menu-submenu config-menu-submenu-inline config-menu-submenu-open"
+    class="config-menu-submenu config-menu-submenu-inline config-menu-without-icon config-menu-submenu-open"
     role="menuitem"
   >
     <div
@@ -13299,7 +13299,7 @@ exports[`ConfigProvider components Menu configProvider componentSize middle 1`] 
           class="config-menu-item-group-list"
         >
           <li
-            class="config-menu-item config-menu-item-only-child"
+            class="config-menu-item config-menu-item-only-child config-menu-without-icon"
             role="menuitem"
             style="padding-left:48px"
           >
@@ -13318,7 +13318,7 @@ exports[`ConfigProvider components Menu normal 1`] = `
   role="menu"
 >
   <li
-    class="ant-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open"
+    class="ant-menu-submenu ant-menu-submenu-inline ant-menu-without-icon ant-menu-submenu-open"
     role="menuitem"
   >
     <div
@@ -13353,7 +13353,7 @@ exports[`ConfigProvider components Menu normal 1`] = `
           class="ant-menu-item-group-list"
         >
           <li
-            class="ant-menu-item ant-menu-item-only-child"
+            class="ant-menu-item ant-menu-item-only-child ant-menu-without-icon"
             role="menuitem"
             style="padding-left:48px"
           >
@@ -13372,7 +13372,7 @@ exports[`ConfigProvider components Menu prefixCls 1`] = `
   role="menu"
 >
   <li
-    class="prefix-Menu-submenu prefix-Menu-submenu-inline prefix-Menu-submenu-open"
+    class="prefix-Menu-submenu prefix-Menu-submenu-inline prefix-Menu-without-icon prefix-Menu-submenu-open"
     role="menuitem"
   >
     <div
@@ -13407,7 +13407,7 @@ exports[`ConfigProvider components Menu prefixCls 1`] = `
           class="prefix-Menu-item-group-list"
         >
           <li
-            class="prefix-Menu-item prefix-Menu-item-only-child"
+            class="prefix-Menu-item prefix-Menu-item-only-child prefix-Menu-without-icon"
             role="menuitem"
             style="padding-left:48px"
           >
@@ -19608,7 +19608,7 @@ exports[`ConfigProvider components Table configProvider 1`] = `
                                 role="menu"
                               >
                                 <li
-                                  class="config-dropdown-menu-item"
+                                  class="config-dropdown-menu-item config-dropdown-menu-without-icon"
                                   role="menuitem"
                                 >
                                   <label
@@ -19631,7 +19631,7 @@ exports[`ConfigProvider components Table configProvider 1`] = `
                                   </span>
                                 </li>
                                 <li
-                                  class="config-dropdown-menu-submenu config-dropdown-menu-submenu-vertical"
+                                  class="config-dropdown-menu-submenu config-dropdown-menu-submenu-vertical config-dropdown-menu-without-icon"
                                   role="menuitem"
                                 >
                                   <div
@@ -19882,7 +19882,7 @@ exports[`ConfigProvider components Table configProvider componentSize large 1`] 
                                 role="menu"
                               >
                                 <li
-                                  class="config-dropdown-menu-item"
+                                  class="config-dropdown-menu-item config-dropdown-menu-without-icon"
                                   role="menuitem"
                                 >
                                   <label
@@ -19905,7 +19905,7 @@ exports[`ConfigProvider components Table configProvider componentSize large 1`] 
                                   </span>
                                 </li>
                                 <li
-                                  class="config-dropdown-menu-submenu config-dropdown-menu-submenu-vertical"
+                                  class="config-dropdown-menu-submenu config-dropdown-menu-submenu-vertical config-dropdown-menu-without-icon"
                                   role="menuitem"
                                 >
                                   <div
@@ -20156,7 +20156,7 @@ exports[`ConfigProvider components Table configProvider componentSize middle 1`]
                                 role="menu"
                               >
                                 <li
-                                  class="config-dropdown-menu-item"
+                                  class="config-dropdown-menu-item config-dropdown-menu-without-icon"
                                   role="menuitem"
                                 >
                                   <label
@@ -20179,7 +20179,7 @@ exports[`ConfigProvider components Table configProvider componentSize middle 1`]
                                   </span>
                                 </li>
                                 <li
-                                  class="config-dropdown-menu-submenu config-dropdown-menu-submenu-vertical"
+                                  class="config-dropdown-menu-submenu config-dropdown-menu-submenu-vertical config-dropdown-menu-without-icon"
                                   role="menuitem"
                                 >
                                   <div
@@ -20430,7 +20430,7 @@ exports[`ConfigProvider components Table normal 1`] = `
                                 role="menu"
                               >
                                 <li
-                                  class="ant-dropdown-menu-item"
+                                  class="ant-dropdown-menu-item ant-dropdown-menu-without-icon"
                                   role="menuitem"
                                 >
                                   <label
@@ -20453,7 +20453,7 @@ exports[`ConfigProvider components Table normal 1`] = `
                                   </span>
                                 </li>
                                 <li
-                                  class="ant-dropdown-menu-submenu ant-dropdown-menu-submenu-vertical"
+                                  class="ant-dropdown-menu-submenu ant-dropdown-menu-submenu-vertical ant-dropdown-menu-without-icon"
                                   role="menuitem"
                                 >
                                   <div
@@ -20704,7 +20704,7 @@ exports[`ConfigProvider components Table prefixCls 1`] = `
                                 role="menu"
                               >
                                 <li
-                                  class="ant-dropdown-menu-item"
+                                  class="ant-dropdown-menu-item ant-dropdown-menu-without-icon"
                                   role="menuitem"
                                 >
                                   <label
@@ -20727,7 +20727,7 @@ exports[`ConfigProvider components Table prefixCls 1`] = `
                                   </span>
                                 </li>
                                 <li
-                                  class="ant-dropdown-menu-submenu ant-dropdown-menu-submenu-vertical"
+                                  class="ant-dropdown-menu-submenu ant-dropdown-menu-submenu-vertical ant-dropdown-menu-without-icon"
                                   role="menuitem"
                                 >
                                   <div
