@@ -1,5 +1,5 @@
 import React from 'react';
-import MockDate from 'mockdate';
+import { set, reset } from 'mockdate';
 import moment from 'moment';
 import { mount } from 'enzyme';
 import Statistic from '..';
@@ -14,11 +14,11 @@ describe('Statistic', () => {
   rtlTest(Statistic);
 
   beforeAll(() => {
-    MockDate.set(moment('2018-11-28 00:00:00'));
+    set(moment('2018-11-28 00:00:00'));
   });
 
   afterAll(() => {
-    MockDate.reset();
+    reset();
   });
 
   it('`-` is not a number', () => {
@@ -102,7 +102,7 @@ describe('Statistic', () => {
         const wrapper = mount(<Statistic.Countdown value={now} onFinish={onFinish} />);
         wrapper.update();
 
-        MockDate.set(moment('2019-11-28 00:00:00'));
+        set(moment('2019-11-28 00:00:00'));
         jest.runAllTimers();
 
         expect(onFinish).toHaveBeenCalled();

@@ -2,7 +2,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import moment from 'moment';
-import MockDate from 'mockdate';
+import { set, reset } from 'mockdate';
 import mountTest from '../../../tests/shared/mountTest';
 import {
   Pagination,
@@ -174,11 +174,11 @@ describe('Locale Provider', () => {
   ));
 
   beforeAll(() => {
-    MockDate.set(moment('2017-09-18T03:30:07.795'));
+    set(moment('2017-09-18T03:30:07.795'));
   });
 
   afterAll(() => {
-    MockDate.reset();
+    reset();
   });
 
   locales.forEach(locale => {

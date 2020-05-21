@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import moment from 'moment';
-import MockDate from 'mockdate';
+import { set, reset } from 'mockdate';
 import DatePicker from '..';
 import focusTest from '../../../tests/shared/focusTest';
 
@@ -11,11 +11,11 @@ describe('DatePicker', () => {
   focusTest(DatePicker, { refFocus: true });
 
   beforeEach(() => {
-    MockDate.set(moment('2016-11-22'));
+    set(moment('2016-11-22'));
   });
 
   afterEach(() => {
-    MockDate.reset();
+    reset();
     errorSpy.mockReset();
   });
 

@@ -1,6 +1,6 @@
 import glob from 'glob';
 import { render } from 'enzyme';
-import MockDate from 'mockdate';
+import { set, reset } from 'mockdate';
 import moment from 'moment';
 
 type CheerIO = ReturnType<typeof render>;
@@ -53,7 +53,7 @@ export default function demoTest(component: string, options: Options = {}) {
       testMethod = test.skip;
     }
     testMethod(`renders ${file} correctly`, () => {
-      MockDate.set(moment('2016-11-22').toDate());
+      set(moment('2016-11-22').toDate());
       const demo = require(`../.${file}`).default; // eslint-disable-line global-require, import/no-dynamic-require
       const wrapper = render(demo);
 
@@ -61,7 +61,7 @@ export default function demoTest(component: string, options: Options = {}) {
       ariaConvert(wrapper);
 
       expect(wrapper).toMatchSnapshot();
-      MockDate.reset();
+      reset();
     });
   });
 }

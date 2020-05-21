@@ -1,6 +1,6 @@
 import React from 'react';
 import Moment from 'moment';
-import MockDate from 'mockdate';
+import { set, reset } from 'mockdate';
 import { mount } from 'enzyme';
 import ConfigProvider from '../../components/config-provider';
 
@@ -9,7 +9,7 @@ export default function rtlTest(Component: React.ComponentType, mockDate?: boole
   describe(`rtl render`, () => {
     it(`component should be rendered correctly in RTL direction`, () => {
       if (mockDate) {
-        MockDate.set(Moment('2000-09-28').toDate());
+        set(Moment('2000-09-28').toDate());
       }
       const wrapper = mount(
         <ConfigProvider direction="rtl">
@@ -18,7 +18,7 @@ export default function rtlTest(Component: React.ComponentType, mockDate?: boole
       );
       expect(wrapper).toMatchRenderedSnapshot();
       if (mockDate) {
-        MockDate.reset();
+        reset();
       }
     });
   });

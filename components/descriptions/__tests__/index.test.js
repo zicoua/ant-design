@@ -1,5 +1,5 @@
 import React from 'react';
-import MockDate from 'mockdate';
+import { set, reset } from 'mockdate';
 import { mount } from 'enzyme';
 import Descriptions from '..';
 import mountTest from '../../../tests/shared/mountTest';
@@ -11,7 +11,7 @@ describe('Descriptions', () => {
   const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
 
   afterEach(() => {
-    MockDate.reset();
+    reset();
     errorSpy.mockReset();
   });
 
